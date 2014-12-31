@@ -32,7 +32,7 @@ isMagicSquare(Numbers):-
   all_different(Numbers),
   Numbers ins 1..16,
   labeling([up], Numbers), % this means prolog will try to find all possible solutions, 
-                        % if there are variables in the input.
+                           % if there are variables in the input.
  
   %print(Numbers), nl, % Useful for debugging but slows down execution.
 
