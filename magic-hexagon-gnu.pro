@@ -43,13 +43,13 @@ isMagicHexagon(Numbers):-
    [C31, C32, C33, C34, C35],
    [C41, C42, C43, C44],
    [C51, C52, C53],
-   % NW/SE diagonals:
+   % NE/SW diagonals:
    [C11, C21, C31],
    [C12, C22, C32, C41],
    [C13, C23, C33, C42, C51],
    [C24, C34, C43, C52],
    [C35, C44, C53],
-   % NE/SW diagonals:
+   % NW/SE diagonals:
    [C13, C24, C35],
    [C12, C23, C34, C44],
    [C11, C22, C33, C43, C53],
